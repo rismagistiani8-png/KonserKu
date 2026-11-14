@@ -1,0 +1,117 @@
+import { POSTERS } from './images';
+
+export const CONCERTS = [
+  {
+    id: '1',
+    title: 'SOFT Woorld Tour',
+    artist: 'Lany',
+    guestStars: ['Ziva', 'Lyodra', 'Tiara'],
+    date: '15 Des 2026',
+    time: '19:00 WIB',
+    location: 'Jakarta International Stadium (JIS), Jakarta',
+    description:
+      'Tiga suara emas dalam satu panggung. SOFT Woorld Tour menghadirkan lagu-lagu hangat dan emosional dengan tata cahaya lembut, harmoni vokal yang memukau, dan suasana yang pas untuk bernyanyi bersama.',
+    image: POSTERS.lany,
+    trending: true,
+    tickets: [
+      { id: 't1', name: 'Festival', price: 1200000  },
+      { id: 't2', name: 'CAT 2', price: 1500000 },
+      { id: 't3', name: 'CAT 1', price: 2700000 },
+      { id: 't4', name: 'VIP', price: 3800000 },
+    ],
+  },
+  {
+    id: '2',
+    title: "Oasis Live '27",
+    artist: 'Oasis',
+    guestStars: [],
+    date: '20 Jan 2027',
+    time: '19:30 WIB',
+    location: 'Stadion Utama Gelora Bung Karno (GBK), Jakarta',
+    description:
+      'Britpop legendaris kembali dengan deretan lagu yang dinyanyikan lintas generasi. Siapkan suara terbaikmu untuk bernyanyi bareng puluhan ribu penonton dalam satu malam yang penuh nostalgia.',
+    image: POSTERS.oasis,
+    trending: true,
+    tickets: [
+      { id: 't1', name: 'Festival', price: 1800000 },
+      { id: 't2', name: 'CAT 2', price: 2800000 },
+      { id: 't3', name: 'CAT 1', price: 4200000 },
+      { id: 't4', name: 'VIP', price: 6500000 },
+    ],
+  },
+  {
+    id: '3',
+    title: '4SHOBOIZ World Tour',
+    artist: 'LNGSHOT',
+    guestStars: ['Jay Park'],
+    date: '08 Feb 2027',
+    time: '19:00 WIB',
+    location: 'Jakarta International Stadium (JIS), Jakarta',
+    description:
+      'Energi hip-hop dan R&B penuh gaya dengan penampilan spesial Jay Park sebagai guest star. Nikmati koreografi tajam, beat yang menggelegar, dan produksi panggung berskala dunia.',
+    image: POSTERS.lngshot,
+    trending: false,
+    tickets: [
+      { id: 't1', name: 'Festival', price: 900000 },
+      { id: 't2', name: 'CAT 2', price: 1500000 },
+      { id: 't3', name: 'CAT 1', price: 2400000 },
+      { id: 't4', name: 'VIP', price: 3800000 },
+    ],
+  },
+  {
+    id: '4',
+    title: 'PYPD ENCORE',
+    artist: 'Cortis',
+    guestStars: ['Juicy J'],
+    date: '27 Feb 2027',
+    time: '20:00 WIB',
+    location: 'Stadion Utama Gelora Bung Karno (GBK), Jakarta',
+    description:
+      'Malam encore yang ditunggu-tunggu. PYPD tampil dengan set penuh energi bersama guest star Juicy J, lengkap dengan bass berat, visual panggung megah, dan kejutan yang sayang untuk dilewatkan.',
+    image: POSTERS.cortis,
+    trending: false,
+    tickets: [
+      { id: 't1', name: 'Festival', price: 150000 },
+      { id: 't2', name: 'CAT 2', price: 1700000 },
+      { id: 't3', name: 'CAT 1', price: 2700000 },
+      { id: 't4', name: 'VIP', price: 3900000 },
+    ],
+  },
+  {
+    id: '5',
+    title: 'The Unraveled Tour',
+    artist: 'Olivia Rodrigo',
+    guestStars: [],
+    date: '14 Mar 2027',
+    time: '19:00 WIB',
+    location: 'Stadion Utama Gelora Bung Karno (GBK), Jakarta',
+    description:
+      'Pop-rock penuh emosi dengan lagu-lagu patah hati yang jadi anthem satu generasi. Bernyanyilah sekeras mungkin bersama ribuan penggemar dalam pertunjukan solo penuh tenaga tanpa guest star.',
+    image: POSTERS.olivia,
+    trending: true,
+    tickets: [
+      { id: 't1', name: 'Festival', price: 1200000 },
+      { id: 't2', name: 'CAT 2', price: 1900000 },
+      { id: 't3', name: 'CAT 1', price: 3000000 },
+      { id: 't4', name: 'VIP', price: 4800000 },
+    ],
+  },
+  {
+    id: '6',
+    title: 'The Red Bottoms Tour',
+    artist: 'Adela Jergova',
+    guestStars: ['Lara Raj', 'Megan'],
+    date: '10 Apr 2027',
+    time: '19:30 WIB',
+    location: 'Indonesia Arena, Jakarta',
+    description:
+      'Pertunjukan bergaya dengan panggung berwarna merah menyala. Hadir bersama guest star Lara Raj dan Megan, malam ini penuh beat percaya diri, koreografi enerjik, dan busana panggung yang jadi sorotan.',
+    image: POSTERS.adela,
+    trending: false,
+    tickets: [
+      { id: 't1', name: 'Reguler', price: 950000 },
+      { id: 't2', name: 'Gold', price: 1300000 },
+      { id: 't3', name: 'VIP', price: 2500000 },
+    ],
+  },
+];
