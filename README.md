@@ -11,9 +11,10 @@ Aplikasi mobile pemesanan tiket konser berbasis **React Native (Expo)**.
 ## Tampilan Aplikasi
 
 ![Beranda](screenshots/beranda.png)
-![Detail Konser](screenshots/detail.png)
-![Pemesanan](screenshots/booking.png)
+![Detail Konser](screenshots/booking.png)
+![Pemesanan](screenshots/detail.png)
 ![Konfirmasi](screenshots/konfirmasi.png)
+![Konfirmasi](screenshots/tampilanawal.png)
 
 ## Teknologi
 - React Native + Expo
